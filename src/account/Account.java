@@ -40,5 +40,8 @@ public class Account {
             balance=balance-amount;
 
         } 
+        public void interest(){
+            balance = balance*interestRate;
+        }
     
 }//class end
